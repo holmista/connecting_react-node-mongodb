@@ -5,7 +5,7 @@ const cors = require('cors')
 server.use(cors())
 server.use(express.json())
 const MongoClient = require("mongodb").MongoClient;
-const dbConnectionUrl = "mongodb+srv://tornike:Sai123&@rai@cluster0.ro4dz.mongodb.net/data?retryWrites=true&w=majority";
+const dbConnectionUrl = "mongodb+srv://@cluster0.ro4dz.mongodb.net/data?retryWrites=true&w=majority";
 
 server.listen(port, ()=>{
     console.log('listening on 5000')
